@@ -21,7 +21,7 @@ export default class ETicketCanvas extends React.PureComponent {
         ctx.save()
         ctx.translate(width / 2, height / 2);
         ctx.rotate(3 * Math.PI /2)
-        ctx.drawImage(barcode, -width / 4, 9 * width / 40, width / 2, width * 100 / 362 )
+        ctx.drawImage(barcode, -width / 4, 9 * width / 40, width / 2, width * 71 / 276 )
         ctx.restore()
     }
 
