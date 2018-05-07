@@ -7,9 +7,7 @@ export default () => (
             <div className='container'>
                 <div className='columns'>
                     <div className='column is-one-third'>
-                        <figure className='image'>
-                            <img src={Logo} />
-                        </figure>
+                        <img src={Logo} alt='TedXKasetsartU' />
                     </div>
                     <div className='column'>
                         <h2 className='subtitle'>
